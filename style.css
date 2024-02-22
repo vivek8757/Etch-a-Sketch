@@ -5,9 +5,41 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 
+}
+body{
+    background-color: blueviolet;
 }
 .box{
     width:100%;
     height:100vh;
+}
+#btn{
+    padding:15px 40px;
+    background-color: brown;
+    color:white;
+    border-radius: 20px;
+    position:absolute;
+    left:20px;
+    top:20px;
+    width:180px;
+
+}
+#reset{
+    padding:15px 40px;
+    background-color: brown;
+    color:white;
+    border-radius: 20px;
+    position:absolute;
+    left:20px;
+    top:100px;
+    width:180px;
+
+}
+#btn:hover{
+    background-color:lightgreen;
+}
+ #reset:hover{
+    background-color:lightgreen;
 }
